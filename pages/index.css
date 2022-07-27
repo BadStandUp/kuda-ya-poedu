@@ -1,5 +1,17 @@
-<<<<<<< HEAD
+
+@import url(../vendor/fonts/fonts.css);
 @import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/travel/travel.css);
+@import url(../blocks/row-reverse/row-reverse.css);
+@import url(../blocks/travel/__image/travel__image.css);
+@import url(../blocks/travel/__text-container/travel__text-container.css);
+@import url(../blocks/travel/__title/travel__title.css);
+@import url(../blocks/travel/__paragraphs-container/travel__paragraphs-container.css);
+@import url(../blocks/travel/__paragraph/travel__paragraph.css);
+
 @import url(../blocks/body/body.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/page/page.css);
@@ -25,12 +37,3 @@
 @import url(../blocks/people/__quotes/people__quotes.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
-
-
-
-
-=======
-@import url(../vendor/fonts/fonts.css);
-@import url(../vendor/normalize.css);
-@import url(../blocks/page/page.css);
->>>>>>> 7ab9aeb (markup update)
