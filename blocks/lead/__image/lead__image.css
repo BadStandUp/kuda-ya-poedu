@@ -9,7 +9,10 @@
 }
 @media screen and (min-width: 321px) and (max-width: 720px) {
   .lead__image {
-    left: 0;
+  
+    position: relative;
+    z-index: 0;
+
   }
 }
 @media screen and (max-width: 320px) {

@@ -1,0 +1,18 @@
+.footer {
+  background-color: #ffcfa6;
+  max-width: 1280px;
+  height: 618px;
+  position: relative;
+}
+
+@media screen and (min-width: 321px) and (max-width: 720px) {
+    .footer {
+        height: 206px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .footer {
+        height: 120px;
+    }
+  }
