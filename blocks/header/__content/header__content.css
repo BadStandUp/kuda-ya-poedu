@@ -2,3 +2,9 @@
   display: flex;
   gap: 35px;
 }
+@media screen and (min-width: 321px) and (max-width: 720px) {
+  .header__content {
+    gap: 15px;
+    margin-right: 5px;
+  }
+}
