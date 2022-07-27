@@ -9,12 +9,26 @@
   <body class="body">
     <div class="page">
       <header class="header">
-        <nav class="header__content">
-          <div class="header__content-item">Мечты</div>
-          <div class="header__content-item">Ожидания</div>
-          <div class="header__content-item">Реальность</div>
-        </nav>
-        <div class="header__content-item">Пожаловаться</div>
+
+        <input id="toggle" type="checkbox" class="header__toggle">
+
+        <label for="toggle" class="hamburger">
+          <div class="top-bun hamburger__part"></div>
+          <div class="meat hamburger__part"></div>
+          <div class="bottom-bun hamburger__part"></div>
+        </label>
+
+
+        <div class="header__menu">
+            <nav class="header__content">
+              <a class = "header__content-item" href="#">Мечты</a> 
+              <a class = "header__content-item" href="#">Ожидания</a>
+              <a class = "header__content-item" href="#">Реальность</a>
+              <a class = "header__content-item header__content-item_mobile" href="#">Пожаловаться</a>
+            </nav>
+            <a class = "header__content-item header__content-item_desktop" href="#">Пожаловаться</a>
+        </div>
+                
       </header>
       <main class="content">
         <div class="lead">

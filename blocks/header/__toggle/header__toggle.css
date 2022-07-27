@@ -1,0 +1,21 @@
+.header__toggle {
+    display: none;
+  }
+
+  .header__toggle:checked + .hamburger .top-bun {
+    transform: rotate(-45deg);
+    margin-top: 25px;
+  }
+  .header__toggle:checked + .hamburger .bottom-bun {
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+  .header__toggle:checked + .hamburger .meat {
+    transform: rotate(45deg);
+    margin-top: -7px;
+  }
+  
+  .header__toggle:checked + .hamburger + .header__menu {
+    top: 0;
+    transform: scale(1);
+  } 
