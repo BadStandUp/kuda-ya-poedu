@@ -1,0 +1,14 @@
+.people {
+    padding: 132px 83px 133px 70px;
+}
+@media screen and (min-width: 320px) and (max-width: 370px) {
+    .people {
+        padding:44px 16px;
+    }
+  }
+
+@media screen and (max-width: 320px) {
+    .people {
+        padding:44px 16px;
+    }
+  }

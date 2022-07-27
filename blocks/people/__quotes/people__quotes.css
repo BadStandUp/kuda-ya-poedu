@@ -1,0 +1,13 @@
+.people__quotes {
+  max-width: 1127px;
+  display: flex;
+  gap: 63px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 320px) {
+  .people__quotes {
+    flex-direction: column;
+    gap: 44px;
+  }
+}
