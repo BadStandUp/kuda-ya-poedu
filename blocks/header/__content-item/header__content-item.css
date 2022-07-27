@@ -2,4 +2,35 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
+  color:black;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  .header__content-item {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    display: inline-block;
+    margin-top: 1.25em;
+    transition: color 0.2s ease-in-out;
+    letter-spacing: 1px;
+  }
+  .header__content-item:before {
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 0.25em;
+    background-color: white;
+    left: -0.5em;
+    transition: all 0.2s ease-in-out;
+  }
+  .header__content-item:hover {
+    color: white;
+  }
+ .header__content-item:hover:before {
+    height: 100%;
+  }
+  
 }

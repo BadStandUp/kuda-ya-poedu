@@ -9,7 +9,6 @@
 }
 @media screen and (min-width: 321px) and (max-width: 720px) {
   .lead__image {
-  
     position: relative;
     z-index: 0;
 
