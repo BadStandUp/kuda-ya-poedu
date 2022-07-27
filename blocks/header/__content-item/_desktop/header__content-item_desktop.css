@@ -1,0 +1,11 @@
+
+.header__content-item_desktop {
+
+
+}
+
+@media screen and (max-width: 320px) {
+    .header__content-item_desktop {
+        display: none;
+    }
+}
