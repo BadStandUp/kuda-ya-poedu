@@ -1,18 +1,33 @@
 .footer {
   background-color: #ffcfa6;
-  max-width: 1280px;
-  height: 618px;
-  position: relative;
+  width: 100%;
+  margin: 132px auto 0;
+  padding-top: 21%;
+  padding-bottom: 21%;
+  display: flex;
+  align-items: center;
+  transition: all .2s ease;
 }
 
-@media screen and (min-width: 321px) and (max-width: 720px) {
-    .footer {
-        height: 206px;
-    }
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin: 90px auto 0;
   }
-  
-  @media screen and (max-width: 320px) {
-    .footer {
-        height: 120px;
-    }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 54px auto 0;
   }
+}
+
+@media screen and (max-width: 428px) {
+  .footer {
+    margin: 44px auto 0;
+  }
+}
+
+.footer:hover {
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}

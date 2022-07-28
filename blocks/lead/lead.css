@@ -1,21 +1,49 @@
 .lead {
   max-width: 1052px;
+  height: 100vh;
+  max-height: 356px;
+  min-height: 320px;
+  margin: 85px 0 0 70px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: relative;
-  margin: 0 158px 131px 70px;
+  transition: .2s ease;
 }
 
-@media screen and (min-width: 320px) and (max-width: 720px) {
+@media screen and (max-width: 1210px) {
   .lead {
-    overflow: hidden;
+    max-width: 100%;
+    margin: 85px 70px 0 70px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
   .lead {
-    padding-top: 84px;
-    margin: 0;
-    overflow: hidden;
+    max-width: 100%;
+    margin: 65px 56px 0;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+    max-height: none;
+    height: auto;
+    margin: 90px 42px 0;
+    position: unset;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .lead {
+    max-width: 100%;
+    margin: 66px 16px 0;
+  }
+}
+
+.lead:hover .lead__image {
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
 }

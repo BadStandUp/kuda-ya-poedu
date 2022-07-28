@@ -1,6 +1,7 @@
 .travel__image {
   width: 50%;
   object-fit: cover;
+  transition: all .2s ease;
 }
 
 @media screen and (max-width: 1024px) {
@@ -10,3 +11,7 @@
   }
 }
 
+.travel__image:hover {
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}

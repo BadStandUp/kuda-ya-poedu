@@ -1,13 +1,37 @@
 .people__quotes {
-  max-width: 1127px;
+  max-width: 1140px;
+  margin: 132px auto 0;
   display: flex;
-  gap: 63px;
+  justify-content: space-between;
   flex-wrap: wrap;
+  row-gap: 54px;
+  transition: .2s ease;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
+  .people__quotes {
+    margin: 90px auto 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .people__quotes {
+    margin: 54px auto 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
   .people__quotes {
     flex-direction: column;
-    gap: 44px;
+    align-items: center;
+    text-align: center;
+    row-gap: 44px;
+
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .people__quotes {
+    margin: 44px auto 0;
   }
 }
