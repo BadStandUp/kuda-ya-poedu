@@ -1,9 +1,21 @@
+.hamburger:hover {
+  opacity: .6;
+  transition: .2s ease-in-out;
+}
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 768px) {
   .hamburger {
-    position: absolute;
+    position: fixed;
+    top: 34px;
+    left: 42px;
+    z-index: 5;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .hamburger {
     top: 24px;
     left: 16px;
-    z-index: 5;
   }
 }

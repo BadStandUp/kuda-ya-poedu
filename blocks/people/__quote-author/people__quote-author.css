@@ -1,8 +1,6 @@
 .people__quote-author {
   margin: 0;
-  padding: 0;
-  margin-bottom: 25px;
-  font-family: "Roboto Mono";
+  font-family: 'Roboto Mono', monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -13,6 +11,6 @@
 
 @media screen and (max-width: 320px) {
   .people__quote-author {
-    margin-bottom: 16px;
+
   }
 }

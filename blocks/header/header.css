@@ -1,18 +1,25 @@
 .header {
-  padding: 50px 69px 85px 70px;
-  max-width: 1141px;
+  margin: 50px 70px 0;
+  max-width: 100%;
+  transition: .2s ease;
 }
 
-@media screen and (min-width: 321px) and (max-width: 720px) {
+@media screen and (max-width: 1024px) {
   .header {
-    padding: 25px 33px 42px 35px;
+    margin: 40px 56px 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 34px 42px 0;
+  }
+}
+
+@media screen and (max-width: 428px) {
 
   .header {
-    padding: 0;
+    margin: 24px 16px 0;
     z-index: 2;
   }
 }
