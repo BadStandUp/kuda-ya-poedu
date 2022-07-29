@@ -14,10 +14,3 @@
   }
 }
 
-.footer__title:hover {
-/*  transform:
-    translate3d(0px, -16px, 0px)
-    rotateX(51deg)
-    rotateZ(43deg);*/
-  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
-}
