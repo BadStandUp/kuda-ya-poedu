@@ -20,14 +20,12 @@
 
 @media screen and (max-width: 1024px) {
   .lead {
-    max-width: 100%;
     margin: 65px 56px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: 100%;
     max-height: none;
     height: auto;
     margin: 90px 42px 0;
@@ -38,7 +36,6 @@
 
 @media screen and (max-width: 428px) {
   .lead {
-    max-width: 100%;
     margin: 66px 16px 0;
   }
 }
