@@ -18,5 +18,5 @@
 
 **GitHub Pages**
 
-* [Ссылка на сайт в GitHub Pages]()
+* [Ссылка на сайт в GitHub Pages](https://badstandup.github.io/kuda-ya-poedu/)
 
