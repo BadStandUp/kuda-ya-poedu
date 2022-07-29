@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-  .hamburger__background {
+  .header__background {
     position: fixed;
     top: 0;
     left: 0;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 428px) {
-  .hamburger__background {
+  .header__background {
     height: 66px;
   }
 }
