@@ -2,6 +2,7 @@
   width: 50%;
   object-fit: cover;
   transition: all .2s ease;
+  max-height: 534px;
 }
 
 @media screen and (max-width: 1024px) {
